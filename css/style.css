@@ -233,7 +233,7 @@ body{
     .ZAGOLOVOK h1{
         text-align: center;
         margin-top: 70%;
-        margin-left: 10%;
+        margin-left: 10%; 
     }
 }
 
@@ -242,11 +242,11 @@ body{
         width: 350px;
         height: 200px;
         position: absolute;
-        left: 10%;
+        left: 5%;
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 110%;
+        margin-top: 130%;
         margin-left: 5%;
     }
 }
@@ -271,7 +271,7 @@ body{
         width: 250px;
         height: 150px;
         position: absolute;
-        left: 5%;
+        left: 10%;
     }
     .ZAGOLOVOK h1{
         text-align: center;
