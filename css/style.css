@@ -96,7 +96,9 @@ body{
     }
     .logo {
         width: 5px;
-        margin-left: 1%;
+        position: absolute;
+        left: 0;
+        justify-content: center;
     }    
     .Text h1{
         color: rgb(0, 0, 0);
@@ -197,7 +199,7 @@ body{
 
 .ZAGOLOVOK h1{
     position: absolute;
-    top: 350%;
+    top: 300%;
     left: 45%;
 }
 
