@@ -372,6 +372,11 @@ body{
     .inlinebox2{
         flex-wrap: wrap;
     }
+    .box2 p{
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
+    }
 }
 
 
