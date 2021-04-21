@@ -41,7 +41,7 @@ body{
 
 .list li a:hover{
     color: gold;
-    text-shadow: 0 0 30px purple;
+    text-shadow: 0 0 40px purple;
     transition: 1s;
     transform: rotate(360deg);
 }
