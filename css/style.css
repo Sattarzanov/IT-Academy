@@ -48,7 +48,6 @@ body{
 
 
 
-
 .bars{
     display: none;
     font-size: 100%;
@@ -292,8 +291,11 @@ body{
         margin-top: 30%;
         margin-left: 2%;
     }
-    .motivation{
-        justify-content: center;
+    .motivation li{
+        font-size: 17px;
+        position: relative;
+        right: 6%;
+        top: 10%;
     }
 }
 
