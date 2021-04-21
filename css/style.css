@@ -214,17 +214,68 @@ body{
     transition: 1s;
 }
 
-@media (max-width:320px) {
+@media (max-width:768px) {
     .ZAGOLOVOK h1{
-        position: absolute;
-        top: 425%;
-        left: 5000px;
+        text-align: center;
+        margin-top: 250%;
+        margin-left: 10%;
     }
+}
+
+@media (max-width:768px) {
+    .video li iframe{
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        left: 30%;
+    }
+    .ZAGOLOVOK h1{
+        text-align: center;
+        margin-top: 250%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:425px) {
+    .video li iframe{
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        left: 10%;
+    }
+    .ZAGOLOVOK h1{
+        text-align: center;
+        margin-top: 230%;
+        margin-left: 10%;
+    }
+}
+
+
+@media (max-width:375px) {
+    .video li iframe{
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        left: 5%;
+    }
+    .ZAGOLOVOK h1{
+        text-align: center;
+        margin-top: 220%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:320px) {
     .video li iframe{
         width: 250px;
         height: 150px;
         position: absolute;
-        left: 10%;
+        left: 15%;
+    }
+    .ZAGOLOVOK h1{
+        text-align: center;
+        margin-top: 220%;
+        margin-left: 2%;
     }
 }
 
