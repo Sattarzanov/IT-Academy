@@ -168,8 +168,8 @@ body{
     .inlinebox{
         flex-wrap: wrap;
     }
-    .box{
-        font-size: 15px;
+    .box p{
+        font-size: 10px;
     }
 }
 
@@ -178,8 +178,8 @@ body{
     .inlinebox{
         flex-wrap: wrap;
     }
-    .box{
-        font-size: 15px;
+    .box p{
+        font-size: 10px;
     }
 }
 
