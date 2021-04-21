@@ -197,7 +197,7 @@ body{
 
 .ZAGOLOVOK h1{
     position: absolute;
-    top: 280%;
+    top: 350%;
     left: 45%;
 }
 
@@ -214,11 +214,12 @@ body{
     transition: 1s;
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 250%;
-        margin-left: 10%;
+        position: absolute;
+        top: 330%;
+        left: 45%;
     }
 }
 
@@ -231,7 +232,7 @@ body{
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 250%;
+        margin-top: 230%;
         margin-left: 10%;
     }
 }
@@ -245,8 +246,8 @@ body{
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 230%;
-        margin-left: 10%;
+        margin-top: 200%;
+        margin-left: 5%;
     }
 }
 
@@ -260,7 +261,7 @@ body{
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 220%;
+        margin-top: 170%;
         margin-left: 5%;
     }
 }
@@ -274,7 +275,7 @@ body{
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 750px;
+        margin-top: 155%;
         margin-left: 2%;
     }
 }
