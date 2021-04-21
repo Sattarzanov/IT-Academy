@@ -168,10 +168,10 @@ body{
     .inlinebox{
         flex-wrap: wrap;
     }
-    .box p{
+    .box{
         width: 90%;
         margin: auto;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
@@ -180,10 +180,10 @@ body{
     .inlinebox{
         flex-wrap: wrap;
     }
-    .box p{
+    .box{
         width: 90%;
         margin: auto;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
