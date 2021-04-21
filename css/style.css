@@ -270,11 +270,11 @@ body{
         width: 250px;
         height: 150px;
         position: absolute;
-        left: 15%;
+        left: 10%;
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 700px;
+        margin-top: 650px;
         margin-left: 2%;
     }
 }
