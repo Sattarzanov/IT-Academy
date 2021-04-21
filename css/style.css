@@ -163,9 +163,23 @@ body{
 }
 
 
+
 @media (max-width:768px) {
     .inlinebox{
         flex-wrap: wrap;
+    }
+    .box p{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .inlinebox{
+        flex-wrap: wrap;
+    }
+    .box p{
+        font-size: 15px;
     }
 }
 
