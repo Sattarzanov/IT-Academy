@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+}
+
+
+
+.banner{
+    background: url(../img/banner.gif) center / cover fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.parentNav{
+    width: 100%;
+    margin: auto;
+}
+
+.inlineNav{
+    display: flex;
+}
+
+.list{
+    width: 100%;
+    margin: auto;
+}
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.list li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+
+.list li a:hover{
+    color: gold;
+    text-shadow: 0 0 30px purple;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+
+
+
+.bars{
+    display: none;
+    font-size: 100%;
+    position: absolute;
+    right: 0;
+}
+ 
+
+.bars li{
+    list-style: none;
+}
+
+.bars li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+@media (max-width:1220px){
+    .list{
+        display: none;
+    }
+    .bars{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 5px;
+    }
+    .logo {
+        width: 5px;
+        margin: 1% 1%;
+    }
+    .Text{
+        position: absolute;
+        top: 15%;
+    }
+}
+
+
+@media (max-width:320px) {
+    .banner{
+        width: 100%;
+        height: 100vh;
+    }
+    .logo {
+        width: 5px;
+        margin-left: 1%;
+    }    
+    .Text h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 1px;
+    }
+}
+
+.logo{
+    width: 100%;
+    margin: auto;
+}
+
+
+.logo li{
+    list-style: none;
+}
+
+.logo li img{
+    width: 20%;
+    padding: 5% 40%;
+}
+
+
+
+.Text{
+    width: 100%;
+    margin: auto;
+}
+
+
+.Text h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.Text p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* MAIN */
+
+
+.inlinebox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box img{
+    width: 70%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px blue;
+    transition: 1s;
+}
+
+
+.box{
+    text-align: center;
+}
+
+
+@media (max-width:768px) {
+    .inlinebox{
+        flex-wrap: wrap;
+    }
+}
+
+
+.box img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.motivation li{
+    color: blue;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.video{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+
+.parentbox2{
+    width: 100%;
+    margin: auto;
+}
+
+.ZAGOLOVOK h1{
+    position: absolute;
+    top: 280%;
+    left: 45%;
+}
+
+.inlinebox2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 img{
+    width: 70%;
+    margin-top: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(21, 255, 0);
+    transition: 1s;
+}
+
+@media (max-width:320px) {
+    .ZAGOLOVOK h1{
+        position: absolute;
+        top: 425%;
+        left: 5000px;
+    }
+    .video li iframe{
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+.box2{
+    text-align: center;
+}
+
+
+.box2 img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.video li{
+    list-style: none;
+}
+
+@media (max-width:768px) {
+    .inlinebox2{
+        flex-wrap: wrap;
+    }
+}
+
+
+.parentbutton{
+    width: 100%;
+    margin: auto;
+}
+
+
+.button li{ 
+    list-style: none;
+    background-color: blue;
+    width: 14%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+
+.button li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width:768px) {
+    .ZAGOLOVOK h1{        
+        position: absolute;
+        left: 30%;
+    }
+    .button li{
+        width: 60%;
+        position: relative;
+        right: 30%;
+    }
+}
+
+
+.footertext{
+    width: 100%;
+    margin: auto;
+}
+
+.footertext li{
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
