@@ -171,7 +171,7 @@ body{
     .box p{
         width: 90%;
         margin: auto;
-        font-size: 10px;
+        font-size: 20px;
     }
 }
 
@@ -183,7 +183,7 @@ body{
     .box p{
         width: 90%;
         margin: auto;
-        font-size: 10px;
+        font-size: 20px;
     }
 }
 
@@ -244,6 +244,11 @@ body{
         right: 6%;
         top: 10%;
     }
+    .box2 p{
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
+    }
 }
 
 @media (max-width:768px) {
@@ -264,6 +269,12 @@ body{
         right: 6%;
         top: 10%;
     }
+    .box2 p{
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
+    }
+    
 }
 
 @media (max-width:425px) {
@@ -282,7 +293,13 @@ body{
         font-size: 17px;
         position: relative;
         right: 6%;
-        top: 10%;    }
+        top: 10%;    
+    }
+    .box2 p{
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
+    }
 }
 
 
@@ -304,6 +321,11 @@ body{
         right: 6%;
         top: 10%;
     }
+    .box2 p{
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
+    }
 }
 
 @media (max-width:320px) {
@@ -323,6 +345,11 @@ body{
         position: relative;
         right: 6%;
         top: 10%;
+    }
+    .box2 p{
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
     }
 }
 
