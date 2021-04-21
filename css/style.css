@@ -169,6 +169,8 @@ body{
         flex-wrap: wrap;
     }
     .box p{
+        width: 90%;
+        margin: auto;
         font-size: 10px;
     }
 }
@@ -179,6 +181,8 @@ body{
         flex-wrap: wrap;
     }
     .box p{
+        width: 90%;
+        margin: auto;
         font-size: 10px;
     }
 }
