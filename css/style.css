@@ -168,7 +168,7 @@ body{
     .inlinebox{
         flex-wrap: wrap;
     }
-    .box p{
+    .box{
         font-size: 15px;
     }
 }
@@ -178,7 +178,7 @@ body{
     .inlinebox{
         flex-wrap: wrap;
     }
-    .box p{
+    .box{
         font-size: 15px;
     }
 }
