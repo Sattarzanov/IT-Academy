@@ -337,7 +337,7 @@ body{
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 2%;
     }
     .motivation li{
@@ -396,6 +396,7 @@ body{
     border-radius: 10px;
     margin-left: 40%;
     margin-top: 10%;
+    transition: 1s;
 }
 
 
@@ -404,6 +405,11 @@ body{
     color: white;
 }
 
+
+.button li:hover{
+    box-shadow: 0 0 50px black;
+    transition: 1s;
+}
 
 @media (max-width:768px) {
     .ZAGOLOVOK h1{        
