@@ -246,7 +246,7 @@ body{
     }
     .ZAGOLOVOK h1{
         text-align: center;
-        margin-top: 100%;
+        margin-top: 150%;
         margin-left: 5%;
     }
 }
@@ -256,7 +256,7 @@ body{
     .video li iframe{
         width: 350px;
         height: 200px;
-        position: relative;
+        position: absolute;
         left: 5%;
     }
     .ZAGOLOVOK h1{
