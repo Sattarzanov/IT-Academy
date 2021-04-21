@@ -79,7 +79,8 @@ body{
     }
     .logo {
         width: 5px;
-        margin: 1% 1%;
+        position: absolute;
+        right: 5%;
     }
     .Text{
         position: absolute;
@@ -96,8 +97,7 @@ body{
     .logo {
         width: 5px;
         position: absolute;
-        left: 0;
-        justify-content: center;
+        right: 5%;
     }    
     .Text h1{
         color: rgb(0, 0, 0);
