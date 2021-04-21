@@ -253,7 +253,7 @@ body{
 
 @media (max-width:768px) {
     .video li iframe{
-        width: 350px;
+        width: 330px;
         height: 200px;
         position: absolute;
         left: 30%;
