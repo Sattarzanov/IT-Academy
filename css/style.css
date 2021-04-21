@@ -79,6 +79,7 @@ body{
     }
     .logo {
         width: 5px;
+        justify-content: center;
     }
     .Text{
         position: absolute;
@@ -94,6 +95,7 @@ body{
     }
     .logo {
         width: 5px;
+        justify-content: center;
     }    
     .Text h1{
         color: rgb(0, 0, 0);
