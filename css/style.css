@@ -221,6 +221,9 @@ body{
         top: 300%;
         left: 45%;
     }
+    .motivation{
+        justify-content: center;
+    }
 }
 
 @media (max-width:768px) {
@@ -235,6 +238,9 @@ body{
         margin-top: 70%;
         margin-left: 10%; 
     }
+    .motivation{
+        justify-content: center;
+    }
 }
 
 @media (max-width:425px) {
@@ -248,6 +254,9 @@ body{
         text-align: center;
         margin-top: 130%;
         margin-left: 5%;
+    }
+    .motivation{
+        justify-content: center;
     }
 }
 
@@ -265,7 +274,7 @@ body{
         margin-left: 5%;
     }
     .motivation{
-        text-align: center;
+        justify-content: center;
     }
 }
 
@@ -280,6 +289,9 @@ body{
         text-align: center;
         margin-top: 30%;
         margin-left: 2%;
+    }
+    .motivation{
+        justify-content: center;
     }
 }
 
