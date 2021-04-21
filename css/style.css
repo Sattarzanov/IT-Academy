@@ -256,7 +256,7 @@ body{
     .video li iframe{
         width: 350px;
         height: 200px;
-        position: absolute;
+        position: relative;
         left: 5%;
     }
     .ZAGOLOVOK h1{
